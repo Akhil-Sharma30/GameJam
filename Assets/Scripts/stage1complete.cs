@@ -11,8 +11,6 @@ public class stage1complete : MonoBehaviour
         Destroy(stage1);
     }
 
-    
-    public GameObject delete;
     private void OnTriggerEnter(Collider stage)
     {
         if (stage.tag == "stage1")
